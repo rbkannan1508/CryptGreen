@@ -1,0 +1,25 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:orientation="horizontal"
+>
+	<LinearLayout
+		android:paddingLeft="5dip"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="top">
+			<TextView
+				android:id="@+id/notes_text"
+				android:padding="3dip"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:gravity="left"
+				android:layout_width="wrap_content"
+				android:textStyle="bold"
+				android:layout_height="wrap_content"
+			/>
+	</LinearLayout>
+</LinearLayout>

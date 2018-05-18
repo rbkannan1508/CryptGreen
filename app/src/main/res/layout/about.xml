@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout android:orientation="horizontal" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:src="@mipmap/launcher_icon"
+                    android:gravity="center"
+                    android:layout_width="118dp"
+                    android:layout_height="106dp" />
+            </LinearLayout>
+
+
+            <LinearLayout android:orientation="horizontal" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:text="@string/version_name" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+            </LinearLayout>
+
+            <LinearLayout android:orientation="horizontal" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"></LinearLayout>
+
+            <LinearLayout android:orientation="horizontal" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"></LinearLayout>
+
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+                <TextView android:padding="2dip" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+                <TextView android:text="Developers:" android:padding="2dip" android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+                <TextView android:text="Abinesh" android:padding="2dip" android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+                <TextView android:text="Ajeesh" android:padding="2dip" android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+                <TextView android:text="Harish" android:padding="2dip" android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+                <TextView android:text="Bharathi Kannan" android:padding="2dip" android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout android:orientation="horizontal" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:padding="2dip" android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+
+                <TextView android:padding="2dip" android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+                <Button android:id="@+id/okabout" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.25" android:layout_marginRight="100dp" android:layout_marginLeft="100dp" android:text="Ok"/>
+                <TextView android:padding="2dip" android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
